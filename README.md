@@ -845,6 +845,90 @@ modern-weather-app/
     
 ---
 
+
+---
+
+# 現代天氣應用，具雅致界面設計與流暢使用者體驗
+
+## 功能特點
+
+- 即時天氣查詢
+- 五日天氣預報
+- 支持地理定位
+- 溫度、濕度及風速顯示
+- 雅致動畫效果
+- 應變式設計
+- 本地儲存近搜記錄
+
+## 技術棧
+
+- HTML5
+- CSS3（Flexbox、Grid、動畫）
+- JavaScript（ES6以上）
+- OpenWeatherMap API
+- 地理定位API
+- 本地儲存API
+
+## 安裝與使用
+
+1. 複製倉庫：
+```bash
+git clone https://github.com/yourusername/modern-weather-app.git
+```
+
+2. 進入項目目錄：
+```bash
+cd modern-weather-app
+```
+
+3. 於 `js/config.js` 中配置君之 OpenWeatherMap API 密鑰：
+```javascript
+const CONFIG = {
+    API_KEY: '君之API密鑰於此',
+    // ...
+};
+```
+
+4. 以本地伺服器運行項目（例如 Live Server）
+
+## 項目結構
+
+```
+modern-weather-app/
+├── css/
+│   └── style.css
+├── js/
+│   ├── app.js
+│   └── config.js
+├── images/
+├── index.html
+└── README.md
+```
+
+## 開發亮點
+
+1. **模組化設計**
+   - 以ES6類組織程式碼
+   - 職責分離清晰
+
+2. **性能優化**
+   - 防抖搜索
+   - 圖片懶載
+   - 緩存機制
+
+3. **使用者體驗**
+   - 動畫效果流暢
+   - 錯誤處理與使用者回饋
+   - 應變設計適配諸裝置
+
+4. **程式碼品質**
+   - ES6以上現代JavaScript特性
+   - 程式碼註解清晰
+   - 程式碼風格一致
+
+---
+
+
 # تطبيق طقس حديث مع تصميم واجهة مستخدم أنيق وتجربة مستخدم سلسة
 
 ## الميزات الرئيسية
