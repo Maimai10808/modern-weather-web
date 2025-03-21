@@ -1,5 +1,7 @@
 # Modern Weather App
 
+ ##English 中文 日本語 Deutsch Italiano Français Español Русский 한국어 हिंदी 廣東話 雅言 العربية
+ 
 Modern Weather App
 
 A modern weather application with elegant UI design and smooth user experience.
